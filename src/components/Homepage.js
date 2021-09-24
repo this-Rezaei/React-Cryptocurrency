@@ -7,7 +7,7 @@ import Cryptocurrencies from "./Cryptocurrencies";
 import News from "./News";
 const { Title } = Typography;
 const Homepage = () => {
-    const { data, isFetching } = useGetCryptosQuery();
+    const { data, isFetching } = useGetCryptosQuery(15);
     const globalStats = data?.data?.stats;
 
     if (isFetching) return "Loading...";
