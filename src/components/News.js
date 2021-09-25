@@ -17,7 +17,6 @@ const News = ({ simplified }) => {
     const { data } = useGetCryptosQuery(100);
 
     if (!cryptoNews?.value) return "Loading...";
-    console.log(cryptoNews);
     return (
         <Row gutter={[24, 24]}>
             {!simplified && (

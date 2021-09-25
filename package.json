@@ -12,6 +12,8 @@
     "axios": "^0.21.1",
     "chart.js": "^3.5.1",
     "html-react-parser": "^1.3.0",
+    "linechart": "^2.0.0",
+    "loader": "^2.1.1",
     "millify": "^4.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
