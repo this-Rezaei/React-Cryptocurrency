@@ -12,7 +12,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+button {
+    font-family: "Poppins", sans-serif;
+}
 a:hover {
     color: var(--pink) !important;
 }
@@ -313,7 +319,7 @@ a:hover {
     justify-content: space-between;
 }
 .provider-name {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .chart-header {
